@@ -1,25 +1,25 @@
-# apiVersion: linkerd.buoyant.io/v1alpha1
-# kind: ControlPlane
-# metadata:
-#   name: linkerd-control-plane
-# spec:
-#   components:
-#     linkerd:
-#       version: enterprise-2.17.1
-#       controlPlaneConfig:
-#         license: eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJCdW95YW50IEluYyIsInN1YiI6ImxpY2Vuc2UiLCJhdWQiOiJNSXJhZSBMYWJzIiwiZXhwIjo0MTAyNDQ0ODAwLCJDbGllbnRJRCI6InZFaVZBeU50UjBPNjhKYVkiLCJDbGllbnRTZWNyZXQiOiJjZGQzYmQ5ODI4ZjEwMTU4NWNjNzYxMmNlMGFkODY2MzhmZTU4NWM5ZTI1MDJmMGU4MzIyZjJhMjYwNTRkYmM4IiwiUHJvZHVjdCI6IkJFTCIsIlZlcnNpb24iOjIsIk1hbmFnZWRDb250cm9sUGxhbmVFbmFibGVkIjp0cnVlLCJNYW5hZ2VkRGF0YVBsYW5lRW5hYmxlZCI6dHJ1ZSwiRW50ZXJwcmlzZUVuYWJsZWQiOnRydWUsIkhBWkxFbmFibGVkIjp0cnVlLCJGSVBTRW5hYmxlZCI6ZmFsc2UsIlBhdGNoUmVsZWFzZXNFbmFibGVkIjp0cnVlfQ.oTwk7vm1DImmiG6f8PbQkdYRySrkTSkAqdjhrFmcGjywuss3m5Km2fpQmlMzsczBzrdhjg4aRMf_13moiqwfLQ
-#         identityTrustAnchorsPEM: |
-#           -----BEGIN CERTIFICATE-----
-#           MIIBkzCCATmgAwIBAgIQLebrhKjIwpBICCRTFHYs8zAKBggqhkjOPQQDAjAoMSYw
-#           JAYDVQQDEx13ZWJob29rLmxpbmtlcmQuY2x1c3Rlci5sb2NhbDAeFw0yNTAzMTIw
-#           OTE3NDdaFw0zNTAzMTAwOTE3NDdaMCgxJjAkBgNVBAMTHXdlYmhvb2subGlua2Vy
-#           ZC5jbHVzdGVyLmxvY2FsMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmb9sCLTP
-#           9/i7tYYKvNIRw6kgJ6QUS7EQnHlUdqA6Sk0SiztK9Szk7rrl0SG5qlzgNoG1N5BG
-#           +jDfcvK97E6bTaNFMEMwDgYDVR0PAQH/BAQDAgEGMBIGA1UdEwEB/wQIMAYBAf8C
-#           AQEwHQYDVR0OBBYEFIlDEIXEwfKdEcRPKkJO3o86gu7SMAoGCCqGSM49BAMCA0gA
-#           MEUCIH5hgpqDhDL3TZbESAbsil55hSDZ39jMJwXZZYjqcEGFAiEA360ZQBbzykKj
-#           zCOryEmEZElQcG2nPjui6RryEkg3dVY=
-#           -----END CERTIFICATE-----
-#         identity:
-#           issuer:
-#             scheme: kubernetes.io/tls
+apiVersion: linkerd.buoyant.io/v1alpha1
+kind: ControlPlane
+metadata:
+  name: linkerd-control-plane
+spec:
+  components:
+    linkerd:
+      version: enterprise-2.17.1
+      controlPlaneConfig:
+        license: eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJCdW95YW50IEluYyIsInN1YiI6ImxpY2Vuc2UiLCJhdWQiOiJNSXJhZSBMYWJzIiwiZXhwIjo0MTAyNDQ0ODAwLCJDbGllbnRJRCI6InZFaVZBeU50UjBPNjhKYVkiLCJDbGllbnRTZWNyZXQiOiJjZGQzYmQ5ODI4ZjEwMTU4NWNjNzYxMmNlMGFkODY2MzhmZTU4NWM5ZTI1MDJmMGU4MzIyZjJhMjYwNTRkYmM4IiwiUHJvZHVjdCI6IkJFTCIsIlZlcnNpb24iOjIsIk1hbmFnZWRDb250cm9sUGxhbmVFbmFibGVkIjp0cnVlLCJNYW5hZ2VkRGF0YVBsYW5lRW5hYmxlZCI6dHJ1ZSwiRW50ZXJwcmlzZUVuYWJsZWQiOnRydWUsIkhBWkxFbmFibGVkIjp0cnVlLCJGSVBTRW5hYmxlZCI6ZmFsc2UsIlBhdGNoUmVsZWFzZXNFbmFibGVkIjp0cnVlfQ.oTwk7vm1DImmiG6f8PbQkdYRySrkTSkAqdjhrFmcGjywuss3m5Km2fpQmlMzsczBzrdhjg4aRMf_13moiqwfLQ
+        identityTrustAnchorsPEM: |
+          -----BEGIN CERTIFICATE-----
+          MIIBkzCCATmgAwIBAgIQLebrhKjIwpBICCRTFHYs8zAKBggqhkjOPQQDAjAoMSYw
+          JAYDVQQDEx13ZWJob29rLmxpbmtlcmQuY2x1c3Rlci5sb2NhbDAeFw0yNTAzMTIw
+          OTE3NDdaFw0zNTAzMTAwOTE3NDdaMCgxJjAkBgNVBAMTHXdlYmhvb2subGlua2Vy
+          ZC5jbHVzdGVyLmxvY2FsMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmb9sCLTP
+          9/i7tYYKvNIRw6kgJ6QUS7EQnHlUdqA6Sk0SiztK9Szk7rrl0SG5qlzgNoG1N5BG
+          +jDfcvK97E6bTaNFMEMwDgYDVR0PAQH/BAQDAgEGMBIGA1UdEwEB/wQIMAYBAf8C
+          AQEwHQYDVR0OBBYEFIlDEIXEwfKdEcRPKkJO3o86gu7SMAoGCCqGSM49BAMCA0gA
+          MEUCIH5hgpqDhDL3TZbESAbsil55hSDZ39jMJwXZZYjqcEGFAiEA360ZQBbzykKj
+          zCOryEmEZElQcG2nPjui6RryEkg3dVY=
+          -----END CERTIFICATE-----
+        identity:
+          issuer:
+            scheme: kubernetes.io/tls
