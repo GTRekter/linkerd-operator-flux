@@ -1,18 +1,3 @@
-apiVersion: bitnami.com/v1alpha1
-kind: SealedSecret
-metadata:
-  creationTimestamp: null
-  name: buoyant-enterprise-license
-  namespace: linkerd-buoyant
-spec:
-  encryptedData:
-    license: eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJCdW95YW50IEluYyIsInN1YiI6ImxpY2Vuc2UiLCJhdWQiOiJNSXJhZSBMYWJzIiwiZXhwIjo0MTAyNDQ0ODAwLCJDbGllbnRJRCI6InZFaVZBeU50UjBPNjhKYVkiLCJDbGllbnRTZWNyZXQiOiJjZGQzYmQ5ODI4ZjEwMTU4NWNjNzYxMmNlMGFkODY2MzhmZTU4NWM5ZTI1MDJmMGU4MzIyZjJhMjYwNTRkYmM4IiwiUHJvZHVjdCI6IkJFTCIsIlZlcnNpb24iOjIsIk1hbmFnZWRDb250cm9sUGxhbmVFbmFibGVkIjp0cnVlLCJNYW5hZ2VkRGF0YVBsYW5lRW5hYmxlZCI6dHJ1ZSwiRW50ZXJwcmlzZUVuYWJsZWQiOnRydWUsIkhBWkxFbmFibGVkIjp0cnVlLCJGSVBTRW5hYmxlZCI6ZmFsc2UsIlBhdGNoUmVsZWFzZXNFbmFibGVkIjp0cnVlfQ.oTwk7vm1DImmiG6f8PbQkdYRySrkTSkAqdjhrFmcGjywuss3m5Km2fpQmlMzsczBzrdhjg4aRMf_13moiqwfLQ
-  template:
-    metadata:
-      creationTimestamp: null
-      name: buoyant-enterprise-license
-      namespace: linkerd-buoyant
----
 apiVersion: v1
 kind: Secret
 type: kubernetes.io/tls
