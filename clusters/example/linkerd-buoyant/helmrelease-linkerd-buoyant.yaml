@@ -19,8 +19,7 @@ spec:
         namespace: linkerd-buoyant
   values:
     license: eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJCdW95YW50IEluYyIsInN1YiI6ImxpY2Vuc2UiLCJhdWQiOiJNSXJhZSBMYWJzIiwiZXhwIjo0MTAyNDQ0ODAwLCJDbGllbnRJRCI6InZFaVZBeU50UjBPNjhKYVkiLCJDbGllbnRTZWNyZXQiOiJjZGQzYmQ5ODI4ZjEwMTU4NWNjNzYxMmNlMGFkODY2MzhmZTU4NWM5ZTI1MDJmMGU4MzIyZjJhMjYwNTRkYmM4IiwiUHJvZHVjdCI6IkJFTCIsIlZlcnNpb24iOjIsIk1hbmFnZWRDb250cm9sUGxhbmVFbmFibGVkIjp0cnVlLCJNYW5hZ2VkRGF0YVBsYW5lRW5hYmxlZCI6dHJ1ZSwiRW50ZXJwcmlzZUVuYWJsZWQiOnRydWUsIkhBWkxFbmFibGVkIjp0cnVlLCJGSVBTRW5hYmxlZCI6ZmFsc2UsIlBhdGNoUmVsZWFzZXNFbmFibGVkIjp0cnVlfQ.oTwk7vm1DImmiG6f8PbQkdYRySrkTSkAqdjhrFmcGjywuss3m5Km2fpQmlMzsczBzrdhjg4aRMf_13moiqwfLQ
-    # api.clientID: vEiVAyNtR0O68JaY
-    # api.clientSecret: cdd3bd9828f101585cc7612ce0ad86638fe585c9e2502f0e8322f2a26054dbc8
-    buoyantCloudEnable: false
-    # metadata:
-    #   agentName: bel-flux-helm-example
+    api.clientID: vEiVAyNtR0O68JaY
+    api.clientSecret: cdd3bd9828f101585cc7612ce0ad86638fe585c9e2502f0e8322f2a26054dbc8
+    metadata:
+      agentName: bel-flux-helm-example
